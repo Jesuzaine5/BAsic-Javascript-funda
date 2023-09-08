@@ -1,0 +1,14 @@
+Operator  same as usage 
+
++=  same as  x+=5  same as  x=x+5
+
+-=  same as  x-=5  same as  x=x-5
+
+*=  same as  x*=5  same as  x=x*5
+
+/=  same as  x/=5  same as  x=x/5
+
+**=  same as  x**=5  same as  x=x**5
+
+%=  same as  x%=5  same as  x=x%5
+
