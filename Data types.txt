@@ -1,0 +1,23 @@
+Data Type- the type of data thatthe variables is currently holding.
+
+1.String
+2.Number
+3. Boolean
+4. Undefined
+5.Null
+6.Object
+7.Bigint
+8.Symbol
+
+SAMPLE
+//String
+let name = "Alenere";
+
+//Number
+let number = 5;
+
+//Boolean
+let Coding = true;
+
+//Undefined
+Let nickname;
