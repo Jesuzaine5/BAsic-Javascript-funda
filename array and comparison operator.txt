@@ -1,0 +1,21 @@
+
+//Array of Strings
+let names = ["Alenere", "David", "Jaymar"];
+
+ 
+//Array of Numbers
+let numbers= [ 3, 6.5, 3.14];
+
+
+//Array of Mixed Data types
+let mixed = ["Alenere", true, 99];
+
+//Empty Array
+let dummy = [];
+
+
+comparison operators - an operator used to compare 2 values
+== Equal
+=== Strict Equal value and type
+!= Not Equal
+!== Not Equal value and type
