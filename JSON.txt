@@ -1,0 +1,36 @@
+JSON(Javascript Object Notataion)
+   -- is a file format that is commonlyt used in transporting data via API or other means
+   --can be used in different programs
+--key should be case sensitive and unique, dont duplicate key
+//sample   let person = { 
+           firstName"Lisa"  key:value
+           };
+
+JSON STRUCTURE-- a json can also have arrays as its value
+
+              --json can also have JSONs as its value-- meron pa ulit laman na json sa loob ng json
+	      --yoou can read specific values of a JSON by using its key surrounded by [] //sample: console.log(person["firstName"]);
+	       --you can also read specific values of aJSON by using a period followed by the key //ONLY wrks on a "String" Key  //sample-- console.log(person.firstName);
+
+
+JSON Stringify-- you can convert JSON into string by using the json
+sample of STRINGIFY  let person = {
+			firstName: "Lisa",
+                        lastName: "Manobal",
+                         age: 22 };
+
+                         let strPerson = JSON.stringify(person);
+                         console.log(strPerson);
+
+
+JSON Parsing -- you can  convert valid string into JSON by using the json.parse() method,  if a string is invalid it will throw an error at the console
+                  
+                        let strPerson = `{"firstName": "Lisa", "lastName": "Manobal", "age": 22 }`;//  this is stringify
+
+                        let person = JSON.parse(strPerson);
+                         console.log(person);
+                      
+
+
+
+
