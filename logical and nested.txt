@@ -1,0 +1,8 @@
+LOGICAL ooperator
+-- are operator used to create more complex conditions
+
+&&-- AND
+II-- OR
+! -- NOT --inverts the result of condition
+
+Nested conditional- you can nest conditinal statements inside a conditional statement
