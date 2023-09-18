@@ -1,0 +1,21 @@
+String
+
+let word1 = "Hello World";
+let len1 = word1.length; // .length is a property that gives the number of characters
+
+console.log(len1); //output is 11
+
+String methods
+These differenet methods  can manipulate strings in different ways
+toUpperCase() --  word. to Uppercase();
+toLowerCase() --  word. to Lowerrcase();
+trim()-- word.trim(); -removes extra spaces on start and end of a string
+trimEnd()--  word.trimEnd();
+trimStart()--  word.trimStart();
+replace()-- word.replace(dog,cat); replaces first matching word on a string
+replaceAll()-- word.replaceAll(dog,cat);-- replace all matching word on a string
+slice()-- word.slice(start, ending); -create a part of a string by specifying the start and end index
+
+create string values by using ``(backticks)
+let word = `String "Literal"`;
+console.log(word);
